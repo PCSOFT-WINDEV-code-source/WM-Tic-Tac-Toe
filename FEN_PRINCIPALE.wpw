@@ -1,0 +1,691 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x2f198e5904ff5eab
+ internal_properties : CAAAAAgAAADy4TE6cC68RlBTvJsJ9eyM+SPO7SBEW9qSx0aHFwNO1jJXltoiXq4BGGHqPtpJK5GTT0cKRGLKrblrBF8v6UffE50pDLXkOlPIJQcLZLg0ySg6JeY0A3akeNR640A6JuhU/fAAjKV6iyUGIF67iWl0cc/jYirk8rQYSJFbLrf7mKh/w5RMc30q1ykMM7ZT8bbM4+32WqmTbX/rmeM+OGygaJeA7lCQE48/0BBXLqAdcKzTZOYiNl8CEwTINZv/YZ79JrXmHsfVS2Jm5krcRks4bJR8Wp5kbUspRY+uTYo693l301c7PjiPuFUVkWrXeZsQ+vOoEFRM2r+a0Cby1VcAEKAYgJWw0y6ktWFUBDTOdgIMLFDc8qqD6hdq80vRMr+HBKr8VbTUa6Q8u+IIXu8fW/WTWYmxclKzDunKAgdfrWYppKAt1HRFYFOwUuko/u5dBx6SO1SY0ESVLI6QI1TXDUASyv8rb4hdkCSiLlsX2a4j301skjOwWvfzi6pzX7mKOf7JPQ167u/g/93923GNaFXBAyAjSjYG6TA1cUCIIPgj/SdU2KFJB9Fui5eK5JluARsFPX6RKpyNhceg0E41BQ+yQvD07ImF6pMi4JOnPg0E21j3tGvemPuh/5M0NkDqCsQy8wmvXANxcx6IMKvfgJX2MLQMRjA6wxDsmV7K3tbyIETbqQ6oowvEAOghsCdz3nMheXpjQ5waFRuXzfX6DTh9Y9BO+plpmRBbHgZoN6zZN+49iGQs6hEDhinPc3gMxyaQdYZLqs5BjgIDPJZ0FJcZg171TeVPB5fZ2KM516ZaDaYNPRPUG7eGtrM+SSMtpUBxsucOPrdN8SlKPX4nnxlG2AuU
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : Image9
+    identifier : 0x2f198e5905045eab
+    internal_properties : CAAAAAgAAADMBZa+cp0I2E/IQnfL8F0zXVgje3mPG/mBL8OuM6fPquhpzvDdCWAgF6WJKZ2X6WofUKtr3v/4kA5/+svkJV2E08a+akfYtOuPYDGC8VPUX7AmimZc+m4FtE2Lv4fTYNLqb6cGeOQYqc97SfHJX3LvmHe00F0Y/HwTzlgKYQ+BjjXN66dvFj5A4HpJimtu2ivTm/IoO+kKi46pkuxZ63CB5bn3vXGIPcVAWWDcwMQOEhgWVka5jHESgkDiTjoGNjBijpAZEhYMlqcKauBW8RWgOMtbx8AZCwFJ1Qt+Bnmq8jo17ibGugihi57GPVW+S9O2GtcwA1aF69CKKsFTWHdWvD4fn5THAub4Yin01dBbj7zUGAWrm0yyWWCGJaQkjm61dzW6ubnMTq8dXSL2P3qque9mehdczdVSJgM4rXsXHQs31QXqKeBJKaHcELqyatylGHRK6aj2wMbyQuP2ULVzoANcFCVCxYy5yUK38muPYFDLPjOos9DjfPoWfVGtBlL0Adgmx5b0MIEMey6QTY3ee3XvGrMvBhBjj76DBYwMV6rem99UgD+b7oFOjm3/LGg74qDKP3/S7PEGIZvlHQkWmJgsxlV71p1SjBgKL3FvoFm7Q5n2GaV78E57vG/gsFaa2F3dyBteq3udl5kLqHu0Vr/FKGPalSVahTUKEm2U8btxKpNAwwvRtd1JZ436V1DstZeNhpXacpRhW5/Zsj0EiiEr1Z+jDQ85T53JuhHAYd7JGE2yBQ3yI0ftQBXBOw==
+    properties :
+     x : 219
+     y : 296
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image6
+    identifier : 0x2f198e5905055eab
+    internal_properties : CAAAAAgAAADSru2qCnhB+2Gc5lGRQC8OOF/1Vo+E9mV2OLga6eKfjflMkY19rrrdaqFwKALo9FjF7aS8sgpeV5cVoVZZjV0j664iYkb55x7fYMw33J/FybB6uvm5GJACncMcc5AjErOkcUmZRHgv6wLcvD++n5dpEO6bdMAchxkmWj2iAfOjzPQ5CdRHjVieYubZpkeZ0WtND296VvnJL6q4UEBmmtTwtj63uIR4gp4vgIEP/zKSK6UusfgK0fU8f3L1jgGZZjUu7xLsfZtV/muVbq+0E0Nkzu9oHEphpVjLDdEoKDNTRnppJOEEZAIpVj/hZ0c2JT7uyhIGc13bQdGEDACbMfujE7W7X40FPA8po7ryUB2wW284O9+i0Ed0hehkGr3yq/A6vxZVTlWMgFrTMKo1jr5WiAm/VcToFUpTsxtCNahK4XotOe+9JKCPIgnQDLhzquLzOfunYliDdY+GFBXhfOUIxNNVYh1wPMzqNBykOkr0vHsiMtOyZ7jqQ6xtrbHv74JVTqMpAsiABgDwEG+iF7s+JsRzKB1V3QYtCPKDnxHcaSOZQSVgcTe3dwJx1AZ8+6acAepMK9gB878FT/HAICfIQ3KHb0Tadzbur4Ul58VTB5oJDkWejpm3taDqApgtDTPwm0osvSv12Mqxw+1GUmSZEDAa8xKS7lSbRHx+E6nrztgT1q6VHSM7dGuoqYY7ugk0Ske6qgoqG1jXj5angmHj2UJ792hvyeHrwZY77CFW1Cr+kMc9uFjFAaID3huT21w=
+    properties :
+     x : 219
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image5
+    identifier : 0x2f198e5905065eab
+    internal_properties : CAAAAAgAAAAQlxt/xR6k6S18n6PRtJJJz/Co+urBBUw8lff5JIu39FoLMh+502z8R6eFcNPeElh14JluFqtw83/DTHIsXO72FRdQ3ynA0tM5e8W/CRFjlhvvXsX43ssx9aOlJ5WPdOKbCSXbsd3+C6mJAiMvIpT4P5sCMmQzyYC+3MQhmD9jVvbjqzFDGks1qyF4UrMWvODjWlY4NbJROT/MGCNDspe/SKKsGjO8QT+II4ptaZJ81NU9elKsm9P1/zZoQKbchyLj2RnEG9Ul57OCdrMaHLvz/ptqBMPt94CUK+S/95lLiiReJ3stj6t03uMyySzcMjg0uUq7fTMlFibDCHIJ5cmKrsjR/7q2KG8lGcqEVT0YTeqYDllVdJvUrpHLd4vEGnrfETMruJ3TtbHVuYa+dgzjH0s+QRTCZtHP+ndylf/SWJeHQHdNko9Ai10VhlW9gju0wd79nOC7QiGAW6ADDL5VwTlkc1XwlP4wTKOBaXzItdyqsW38Sr+JxsZu4dINLrNaGKS9apobmZT3zopiFrjmWpsbb9iUDRgrnzIyq95f5706rSyr1A+xeU3TPxy5Xi8VKl4Xu9kxy0F2kp0AmYkfM/Zh3QRD7ovzKEqjdMFGjLQQ2Lvtp4s1ITFEITMQd4YEpvGNPBIT+5UqtXub3ct7IM6aZ/HfZh0Wfk1iwj0R2XOuLreSAhNf8G01G+kZJWiQif8p7bxJGTYCejXzPaHUfk8i9wyxXTz/Xk5Y/Y+vpnRz0BFQ2SctY+v0c8J39Q0M
+    properties :
+     x : 115
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image8
+    identifier : 0x2f198e5905075eab
+    internal_properties : CAAAAAgAAADmkuG+/gRN1014Ms0STKny6rkLJAfEC74iCNq5tY6zAd2dJwP3No4fdi87AmPsgoUbjoZWrEB2uV8H67pKLIEcfUj9Scxk8kdQpl6w9Lfn16A8Wax/WMNIqvukpRMUQvykpNzuoAQ3L74yNmbN7dPo1wdbADQVcNVyT5FWVpZIq+yKfeFvxozA7JQycyPDtM3Og3OCptFJ1wYAJKD2YhRM5gbfuHQY4rYbeCVf19JKD03GIaBCAX1U63p5ngmhVpm+pyKEtdMVBt+lel8cw8tgriegHCphDaj/LQWosEvz0gJJzBmUpGoher8dv6du1cLG4uIeWzVjYUUkYACbAQyC4XwJEh7hLRkRY9rauD0o659gc+/aaKesZdDc2n16q+h2g1KREpHYVHZnRF7pwoqSpC1LEcgkwa65bng8HJGWs+fXV8GPrq6h3DsOzsKB6DiNU6kBdFJ5DxEYSi/zWoum3vVrXCcS4nasfsrW9NgaCo28SIU8IR5UxZZL/8vtvSjXOIkzJIImoNparrnspXk0YH6xYvenK/jvAvhVqV8CF3Vbj58Ks/XZkaR3/vC2GY17WRYa8owBt1+vCqrQ6CpNi3WVvN/Jd9YGiJ+libVEN4lag9dl7TZ8Pjl15ySwMYlxXI6LrnbQeHIeCITccS/S+z83pqz68I+Fo5A8ivPZWGn0HE1o9HA4yzaH5HMOyu9zIfw6VHe9Vn1M9m3AUXEjmRpjx1WYIpYthNcy5YjtfxH1HUOxDLShLZ4Pyg+P52g=
+    properties :
+     x : 115
+     y : 296
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image1
+    identifier : 0x2f198e5905085eab
+    internal_properties : CAAAAAgAAACkaCD8QkC9GbmkriG97HnG4gFL3Edk607OUDwGLUaxBV+XgVXn9lo1NivXjCuDmCD1PcBg3cCIlZEFaRDIrDnCbbB3BepiMPH/qObYqDFHio/ir52N1Oxeuf+Y5wSjulOGdZVdeHQDv/p41FOb2v2jvnyB0o7CscckyJemt5VB2sKfj9x14ww0BCt5XsdZ5Z+Kaoh9mj0pMUrgxCwShh4w2MjRGoA8WiyjYM0b2y7Qb3dov846af6Vn54h9pmx0AsxdjZoQ3HvL7RYs3rOsDnggwHinaJGgj6VE0bJI7+rJ0v7PfB24eDEFP1LYAGZaF8baofGUcBY6yZiRRDwDSEN36MUTm8PiwSjxZhoDqc0RTc4NyPwtr2QP2K64BO8q/4dGovgAUqZsbF6GbGGNQmBW3wsOJdtsttbwN4P7Sdpvo1w6nPtAQ8XHgTktp7eaZIASZRiKkTfLcinaMeUABVTwNfd+RsvcduXYl25XFyW+QiL3JkHnW14XLmQsgD4rX2S89pie2uLFbx9P8h9JPiH9xXe9SKoTJlOoRVwDmLB8rCuaLZBKGpiAJussXwbK7WP9uEF3P+LXX0Zh4lWkq2CnVThfVQWq5ZCMzVV18Wvhx41def4YJ+576rQFPLLCx/8L9bQOadpbL5lp9Fid+UJ2SEXCvAmOrCCeBvZ8dI8E6CTk8YBU1MbWE+YlCNOqXg9vxkFrcIgPbrxHXZPGh5c7ve6MIF+BKSzWrE4G5rnWU+bP6BKjx8MXk9Kl1JNoaY=
+    properties :
+     x : 11
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image2
+    identifier : 0x2f198e5905095eab
+    internal_properties : CAAAAAgAAAD9T6ZBgnLmsI5J/S/cvKPz4Vbrdv56PcwS3+rCHJRGT2JzfpGyx/Y2AaRoIZzq5ReTbuXxq9ySL8dP7ajjWanHhKHCyog8kD+S3NYB88yrXiuqAPFx/8nzMJIZHCSUc6qyCTYTM6eAUYOTwNGScoS5pFGpxS/SfgO0t9Sc9wyyzvV5REAE08CD0V9rrTRpCiAK5AeV97JLvH30wBp6VAb7bsUB5sT+Gc0EvobOgiFtNR4Q4NFl8oM3NF6DyOV7qWXY+zUvxuqUIQUXFJNnbVkzqpCgX/97CDZrTxJGMICt2BweyMuaTyb/pjL09rdP6ZPYla0+wFA6hIuR/4uRnjEHfvZl9Um1o8hDchpAT7uJs/kek+W+Njab8xMVS7OhwWq76zJdIcgmMR1LqgSjzFGwRYV8dpgNHs/RMnib29c22+MjuVDHXaCZ8tv9ca0DW5ci+gPXhgrWcJSakrGwsoqJfLnetbhBLvl1DZU8BBatv9HtSInLQU7wNwlB7cNlzBlGMRf3ngIPJm6vvnyx7OgUS5ViTZ8zj83TydsPd9MBbzxtiUndjbD8KAuyxdfyG0X2LsS4bz4imLo7VILc7pt6XuQeIhzGlXP3bFLSLMz/m8mlIzvfFh0a6jcNK6TQqLzJqZr4vtpeZEvrxIQ7MkE7eDy3C/ra9crO8fvramvQkA4oFYi9e+ATseUMAVi9H+1ajU63oMWgtUZaNFFkQZLESxJlSw5flo7FsV6P6h9Gucj/sckLB22wDd3GGhdbWXSITA==
+    properties :
+     x : 115
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image3
+    identifier : 0x2f198e59050a5eab
+    internal_properties : CAAAAAgAAADmkuE+/gRN1014Ms0dxKuKtNuB4nuYynkKPLwe/f4jIR0gJSFhurbp9s3MpP7MULQxeRBoDr6CW4tpReo92TF3X7IGVsqlU4pb7EizWDNxVczgQolB6PDSkSt4k0A/RnMmSWGxjMCXExpEJCemF1cRqJZzvLp035lCQgl6wVq6ubyRlUbmC3p8JETfjMW7rFmkjIkS4P54V3q7VFTywMn4kHqsoSmu3n2es4IfDwoTmQFraYB5wztMaTS/6qls25+/C+B3uV2zO7hvA6uEK+66f7RfynBSm4Q8GNzus7+6dC0eQ2nb9VZQFG7XM7nRTRnAQGc5iozh8S/3K5sTAcUXgL7wYuJ701una/AUmY88eedQHyN4Lr24P6qikONUy4bh9t9ELX4tzfXm9Z0iwb0FSyw8HyJy4XKlFkAmrJIXERQfqVXePEfI52x6HZDO9YHVm16EzVnfKzi3NjIc0NxwtG6cICNvMsOz4TDuwpUW5U74BIE8ou2YrEk4MAsp650WUHKY+9uDRRlJa/PMD6i3e7QxVJPGVaGBCvw6S4QFtnTzGZW4wdgSqFjU2zFtWSfhT7g+hWZzRe3z3QLdAz53sWOFgQZ8DVDwedudH1177yKpnjVeHskHBbCKskiN3U3GgUwqgzknhniv9VN0PGidFDwu7xaW6lCHcCiKZ0VXuiTnItJxeYef6B/cfVJPrn2IJqvGnh5GN6RjGwLLbn3/9WYXa+TrTWVvRSqvGBVa2C76lMMxjDQhrR6PSg+P52g=
+    properties :
+     x : 219
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image4
+    identifier : 0x2f198e59050b5eab
+    internal_properties : CAAAAAgAAABQJFyYHiRRzX2YclmxcM0yTsWPmDtgn7oybGhKYZplUWubJYEbYt7hWvdDEP833FzhcQQcUUx8EWWxJRTMAM3uiWTLUb7u5I2zxLKsvLULRnumYzlhsBCajbvUEwBDutNmtXW9eFTDv5q49JOaW9sp9MKXoCRIm93O1i2s7Z8/wHiFJXqzwY7C/qFn1A0TEy2YcA6zOPvLXyQeouqQsLROpg7/sF7KtErlhgPB+WhOlc2+NVSQ7yBrQQzXZBebAENp0gyuqd/OaxamiXwwvvWm54VGaTRgFMpqXQqdh3vPS9+PAVT6rSwAQGnHDC0tdDsX9gMyDSQMz4o2mWREOVUpQ7eYYtOrejGrtahgFodE9QfAH/MIrp2Ij4pykPNEK/ZZXkfs5ZbFZT2+LbW6ScUdN9jgjOPhJrd8FDLD2XuN8ulUxlfp7dO7koiYmjoS/cY0hVjufoi7adSzhIPI3DEPfIsJzZeLv7KgoxzaM42fYrU4dz6c3IDD7UtyoC5CXadm2TCcnWktVxIDFRIHihK97YNMB3x2/iv8H3MyyDjruNZUhmhz3gTcrsk6A47JxXMtFIfvxjXl15vntXtAGGfY0wIXt4489UDY2UsfGWMJfXTjRFfoUG+pv7oABOLbO+8Mv2ZIoXfRLHbVB7EKl/1hcUk/anCOenhSsDPRYUpMgxCToz5p4zsLYI+4tIuugRA1R4HlnRrQVbrJ1V5vot6sfofKOAnu7ORrWrE4Y1qfoRdjd+B2W+NQkjOua24hVdo=
+    properties :
+     x : 11
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : Image7
+    identifier : 0x2f198e59050c5eab
+    internal_properties : CAAAAAgAAADmxed1/yymL09KybEDGoDXUWY+UEQX/7K2+6m/ZlFlGpTZ+PXD4ZZ6WdXfVjU8yL6P3od0ELkSAcFRjjjumrQsFyVe1dMm/EkDYQdVu8ehVEU1JNIiwumVN0f9O0erdFyBLzHdp+34N0tlOvch/rCGaX0uiK7f74go2ORNipsnFJD5X9vzjm0t8WPYXnX6ukrp8JIO+14bdQlwvCs9uosJ0uwYVNFQK1sGS0KZ7/5Ivv+zoozOq4G9Me5I1BQAu8zNp3Gu7Z1TbPCp7HIT6nRxeoiOqCXGUAYWpi1Ik5URntG0CA88VKD3+CSvTVcMjTXjrozgf30io0wKS991DZE6GO7a1OLr3sJOjebwLzms++TeCg8b5C1kEKWTL4Esbrju4hw04URcmnQ2Wgcfk7FCsvhTvql1E8ZZRcYAo6Iq4vN/1OfNk+mznEna/YBrwLz2qCRnMxHxfXCi0Lr0ycCF+izfTGIOaZ68/Nx5f3KmUI/FtevVYLGwpiUNmJnoNfgrT+P8EVPGDBF2ReG5IUdLY2LCNsc1cFs0ii1d/mESuN7ZXOsqJWqsWmDmqoegWSTiPX8IjHj+eja9keyl+nbGfltO0pmWH5gusYNUFaJvo6sBOcyGDjCuUL7RvrCV8CHf286SOf38YCjT1mQ8hUOHeMIW/2m3Kglmytkauj0Z5XuKgue6eueT2NFpO9kJnbSQ9UNBxRStBQZOdpVjraHofuM+x+RJEXAncqqA1aeXknQ3nMHgiZMZMxfge9pXn7ta
+    properties :
+     x : 11
+     y : 296
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         Clic(moimeme..nom[[6]])
+        type : 18
+  -
+    name : IMG_SansNom1
+    identifier : 0x2f394ffb01ee8723
+    internal_properties : CAAAAAgAAAC9YU7B/YjpzbBu6dYUkHlYpJfZszkwFBcoSfXwfTylESNn8CBWxJa8Jd/49DoY+VaAwu978rV6MKb7ZQWGgpN2Eao8vtulaGqjUq8eLHTiifv32AOYBpgXvnGugZ1fT/iT/+Y4dmeX0bDgGexvHLnst+gk0CDPFIcnKjZR+JeX9EujcCm5twqMfbCt0Ifed0xSGrrc4C3MhelTMgI3PRbmXC4W+Umf/YizhKbrKQfRvWuww24mZyw1B1BtrXPXkFdzqFl5MTcobO5nzkKVVfDxf91oagZYIf2gbIdBYT7ngR/fsTYqKm9VcqFi66DpIB6TSllizUFhP4NWFGH0R1kdrnTvqn2pQIO/3qRTbmd7OUl0BpP0AsxRfBhnhRHaC8Yqv72UnpD0xT3RRhyB09JHg512aEUDdyDTViSNWLfZ2SAwye7lNlEdyaJ6WTBiaeEZPDzOuLfgXDNyE0O3H5StSs+tv9Zr9Aw4/oaHlbrCgWWlT41Ad7aoNRHryEJIq2CuFdoKDPavBv8Ctlm8HqV8gfvjAltN3s/5cGikcGUb+xKaRWFbqtgEpNp/2LYQDvNdtmKmbgrzDbneOZyjtKRVoWKSep1Lu48Jno8iG3K9JRDCSioS+IVRqb9GiZP/+eFbuHTjjugyUbZEgRHzb0QSVeOlU3m17Bx1t4xtlZFqLhrS6yM4vLMcEDwwdgVDd+804ZDphdGUSxmTVCFTRqYYGVs9qTEjvUmiEalY+HwrwQgnmRMBK+CIKFmp83r0E21/XIDmpNBD5QkjktfIN9sa1JPE4qQW0iRqZjZLmHyXr93OD3UYdNqxYeJcjVBH67627Gd62N2LZojrOG6p16oFJb4aA0QOdCb5HN2sMIYZH9L/08vZZTyBedU=
+    properties :
+     x : 2
+     y : 138
+     width : 316
+     height : 10
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SansNom2
+    identifier : 0x2f39507e020a88c9
+    internal_properties : CAAAAAgAAADU6Fj0jUdvsUaj8T1HzoWb2QOKJyGJKKZlaeCfejGyeD3Ahe35ZbDPZZSNtMhIgYwvi6hiAv1tWzG6bGPPks8mL79PU+bGLs+KruRU3oG4anIFP5NjWMCGYzsy0ulK53nxDnZySh7xMWy6Vl1/E768CwHdCT2OfKht8TU/lUVSiVKRNOnwN/TdsRdAB5gbLDj/Ms2c76xNKJjRWyuZz6kd7Dl2QPCb9xC4mJPi9cTj+HEqLdfzn3xcMl+4ZN2Qtux9C3s7N7R5m7dpC8LZ+TuqiK2CiaYLrxaJtugF2gRFwB8b3g/+C7NBREFUIn8jZBmqQqEKZO243csUvOUfzlhpmPdEeUtLYC3hayQv8j9Yc4VL7MVaqD1OBgPHB1Kua1xwfJxlmnyIKWT9IEFxNs/3Lrt8vc1rPCOr/63kMMY6Nr9aHXjkZpWot75Ix3Q3tO9JtrQWzegIJX1IMa0EFJqlj4OD/ACmy3xNiXUxZ4aWxSL7uB2Z5M88014jG8G32sqdbNWlr46VeuJpUCBWH5b2y9bWGs4IN6O8CRua7YCkjd+gBtY33mcXg9Lxjndd5vPhJxItIMle1gDaVvVCWhBzUZPuB2hUtjtIjGSuipov7KzjUy83e0Pe+MglIbxrBBmrUFm6AzGcivoR02M9QT7n41nlccRIaKZXn+rxScSgRrEGMedlYVSwJAJdgHBRtPs6NePO0a5BLtTFW+mkCNpMu9IpD0Ao7zVvUqxQKM05Q/U47//QlPLpMWb97v1L5seYMDov5ZduN5MhKby0j+FX2GGWsHX8pCGi7o/rGEFdKAtVkJOKQ6xmp8ry/4poGHlNXjMP3gMvp5VcM//gSx0fWqxE8VelhsKAm0f3ap3RVg==
+    properties :
+     x : 2
+     y : 276
+     width : 316
+     height : 10
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SansNom4
+    identifier : 0x2f39526a02690a76
+    internal_properties : CAAAAAgAAADWXTgB0ERrK/kGiTWIlEzsHoX13kaFcbnfq00JNoda0FEf2pcd1UuPVs40CKrbOk83GQdNO59dybfOMQ4EEfoHia8eNAsvcclfte0daLKI8lG00C3eItO6lWMy6w5/UIkBZ/EvSktGxn3ZD0EKBb/HtJb+unoOWGRC2hJfc8hmGDRaHIXYiyymVKH3ojakXZY//n/DbchRDcp4JwDyCqdBBl4o1bhfoGuUTG6fYxTsYhUD8mrxQRspj9i9pfeADo9OOvvsrKWPVpd7yq20tTRi3+8qVMtUar/SeRYKeKZdo9AOrz/+g3OGzzDcpd4s7Y3ZoaOk+viPm1xzfGVet4qnslYj+sXh6bBOZ15BuXHz8Ouskt007uMtHm2boxoOaE2qVbtFzpN6YbSiy3btKUzJcXpPKcttKp9M6ObNHAySfODpIy+aobEOTtBzJ0YpT3hhT8Ql/XMOTyLOVi45xIj7zyMkoum0/GujmoS/92K7ZS+e1I/O2mfpqcyCfujJ4T2fvpgTCY9HLFhl7zuX5JigVlmHeSwvZbY02xLdl9FZba2sMVSeeMizt4bh4+PuCHGu0QTRY/UFhssHi8EjzxJ8gVpTwBCTgqkV9riMAMcMgMLT6azWPVI8vh4VXCzh/qF4ltB5Mx50TYfJNPvNwAFO18UObw9hB1GgdNKJ+o4vF5NQ4r9yI+l/iH+rqnKLp2ofAjMvp8XeUzAB27vRCCUkaapm3DFqyvJm+gVZmmEInpUfNAYyzfo1SuMuGASTX6nf3/pF2gHNyLEQ7HKKviobefJ4vaXvDBOXc8slytpvRFgoEPIW9A/j2datmpGt7qxBFx28uWP2dycP38XCKCHsr0Dgc2XQIherX6wJrQ==
+    properties :
+     x : 207
+     y : 2
+     width : 8
+     height : 403
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SansNom5
+    identifier : 0x2f39560d03523f2c
+    internal_properties : CAAAAAgAAADa5CA4hC06mfKNfL1DhBik2H7nce4fxg6O00FWFVwNOrAu9ve7lTBs9SpwDXibaQPmpvrIYfJP8uU61aY6OUjbEjsqY3wYljA8Mrg9OOvwe58IlsIAyqjJvnUGDMYXfoDbfFsg1duKvIHHZ0kWLb33HlOv5o5F1bctRLClhcl6MSzPP/UpPwG5fTPG8RZKIx/f6h8QJADOZ3yP5UHIz4JkB0eWRsbWcXyS1BcakMKU+30xRm3b9mBqQJUZ/XSBVeWC+Q4sskGOnxKgPlAoPTMXzpqH5Y0PW5fFLNBW13XQEg/DrRjIny4jlb10ydzoRwVIsfcp4NmxqGEI78l1KqQCSdJHpjaGZKLFkEoZGliEqs6BUgEGZH5zUHKSo9aqSMBWo0nJIwSlR2phb7PCqF9fvejzDBQD5SkIDsbAv4Ylu10+ZetsvoV0O7rz53kkJxUuMMM2lUWZ5QK/VWganZTe7ReDcRhSQyDDwSGKz0yk1jD4VwlReO580vjoJ4dJyB6Tl/Lz4Cf1PlKKa1pV4IhXSYf21fbNE9Wa2gR6SR4pBiFseSKHkbbR5qk9A83+7HN0X12ScMqSmhig/7rRjIEApU39S3BW49IgRYtsS9+gvV2j/GAAld654sVbv52t7rQYPtLO1eyGAf7DiYMau4b2Q6ORGDMwRG1eBn6XR9qY7/CPsxtd4pSczqOVcCAnCdw3wwiDS1VVvmM66vQlUDEd8AqjvJQnDIZfgmx7WOTTsii0bIvWJdFKNK9u0ucXBYTSb0jvGWOmMzp1f6muNoYEnLoxR0cZsvaeTCPbHi7GTDSTlxu2zBdfCbKv4+TQanYXUmpBwVMjRqShcsfCfQI/7wlEaVDtZYRPzVk=
+    properties :
+     x : 105
+     y : 2
+     width : 8
+     height : 403
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2550d1610285e5b2
+  internal_properties : CAAAAAgAAACf+VRxvVMhkY+Yn7uI459yRQGTrD7G2WPIaPxmMStazlhQA7cnCuJvLJIAZNHOph9Jc0o+uNd5Un/tVQ6t65uQtMuqEh7nnUZoKdcIXHA3DgO0R4zf+9KAKE07EMM8PAiYxNUHWz5k4X6r8xSalmO/Troown0Tv/SDy6irpyfFgUXMXDkdU+4Hp7kEqF4hvlCTQVFLxKnjzu6J0SonGUvX7knFvAopM44x1x7bKBNb9iDYqF9S2BYKWdEMQCVPKhFPa83f9lT4+msvDLDtwzmAyG02Xwkp4CYqU2/2HbRE6mGLf3z1II0AJacSsVgKlcKQovi66zxGGr4CGsn23JoKTX9MlwaSu8hrleNf+cR6sOuXmt+RP7I9qA7b/YAY1y+z6WD+Q6CRvZc=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Nouveau
+     identifier : 0x2550d1b7028a3576
+     internal_properties : CAAAAAgAAACgqa+E79UhXGa8J0p1sJEzm+YGwAHup1IxbQJ20RaXBGFYglTaan3yzYXh+DZWg5oF/ABkMODqv5H+9TioXWPSD0dgfaXR369qY5wcwR2Ur1gcMa+SV6zDIiTyIqMOAv0k4aAUEQb9xEPRo8p9uCmclbK/UAtup7I2ycN8wxbhloBGM9sR7j5ynCBOqqsaQXmgSv4rZjIfQiVZoNF4kQLiuQAXFzkVFxg4S0ozoQdm2O2+aDbCHIceOCOn+MSHcnsBng5ZvOtcKoCgcc4SIuIomUPcjhrdM4aB5I4JNmdETKUmeNI6GP9oXK1Ayj1/RgCeWnvI6PMvDg6kC98WMHifSv+Sbh+E
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          ResetGame()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADs05DCGZ1rLZdqupRTgfHEMKTb/vbqsZEW2kAG72n7P1tiQ3ekzqd5M7Gch4RSyOEFK+GYvVsspGif60iDc3ufPsIFMWhtY/mVCSFR2kVN0lZ/x/o0N7qftKWt
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABcvetPzmENH+7xJy/xaXdfLggAFx6o1WTcvrqrbblfFDDAk0EK2v/BhLUhqkfb735W8OIqUcT1DuDgWX2EdVzA7OwpR/HX9TQK7z1YIxj8APRNKxPKzS1tkp/QXEsCho9M5MLyOVFlK0cWTRyNqDeYp2nKgDWqjnl4gf1Or8g=
+     code : |1+
+      GLOBAL
+      	gsImgJoueur	est une chaine="Croix.png"				// Image utilisée pour les "pions" du joueur "humain"
+      	gsImgOrdi	est une chaine="Rond.png"				// Image utilisée pour les "pions" du joueur "ordinateur"
+      	gbPasFini	est un booleen=Vrai
+      	gbJoueurCommence est un booléen					// Vrai si le premier joueur est le joueur "Humain", Faux sinon
+      
+      
+   -
+     code : |1+
+      
+      ResetGame()
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : Clic
+     procedure_id : 2240978802514812587
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Clic (<sVal>)
+      //
+      // Paramètres :
+      //	sVal : numéro du bouton (sous forme de chaîne)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Clic(sVal)
+      
+      // Est-ce que cette case est libre ?
+      si {"IMAGE"+sVal,indchamp}<>"" alors retour
+      
+      // Le joueur joue
+      SI JoueurJoue(sVal) = Vrai alors
+      
+      	// L'ordinateur joue
+      	OrdinateurJoue()
+      FIN
+     type : 458752
+   -
+     name : Joue
+     procedure_id : 2240978802514878123
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //Joue (<nCase> [, <sImage> est chaîne UNICODE])
+      //
+      // Paramètres :
+      //	nCase : Numéro de la case à jouer
+      //	sImage (chaîne UNICODE) : Image à affecter dans la case
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Joue(nCase,sImage est une chaine=gsImgOrdi)
+      
+      // On place la pièce dans la case
+      {"IMAGE"+nCase,indchamp}=sImage
+     type : 458752
+   -
+     name : JoueurJoue
+     procedure_id : 2240978802514943659
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] JoueurJoue (<sVal>)
+      //
+      // Paramètres :
+      //	sVal : numéro du bouton (sous forme de chaîne)
+      // Valeur de retour :
+      // 	booléen :  // 	Aucune
+      
+      Procédure JoueurJoue(sVal)
+      
+      // On vérifie que ce n'est pas une case vide
+      si {"IMAGE"+sVal,indchamp}<>"" alors Renvoyer faux
+      
+      // On joue cette pièce
+      Joue(Val(sVal),gsImgJoueur)
+      
+      // On remplit un tableau en mémoire avec l'état du jeu :
+      RemplitTableauJeu()
+      
+      // si jamais le joueur a gagné, on arrête :
+      si bgagne(pGestionCase.gtabCase)=Vrai alors
+      	OuvreFenêtreMobile(FEN_Résultat,cnVictoire)
+      	Renvoyer faux
+      SINON
+      	SI bTableauComplet()=Vrai alors
+      		OuvreFenêtreMobile(FEN_Résultat,cnMatchNul)
+      		Renvoyer faux
+      	FIN	
+      FIN
+      
+      
+      // Par défaut, la partie continue
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : nRecurs
+     procedure_id : 2240978802515009195
+     type_code : 14
+     code : |1+
+      // Description des paramètres d'entrée/sortie de 'nRecurs' :
+      //
+      // Syntaxe :
+      //[ <Résultat> = ] nRecurs (<ttabCase>, <nNiveau>, <nIndiceCase>, <nNiveauGagne>)
+      //
+      // Paramètres :
+      //	ttabCase :		l'échiquier (par adresse, donc ne pas le modifier)
+      //	nNiveau :		niveau courant en cours d'exploration
+      //	nIndiceCase :	contiendra le numéro de la case à jouer.
+      //	nNiveauGagne : 	niveau qui correspond au coup gagnant
+      // Valeur de retour :
+      // 	Type indéterminé : // 	
+      
+      Procédure nRecurs(ttabCase, nNiveau, nIndiceCase,nNiveauGagne)
+      
+      i, j					sont des entiers
+      Lig, Col				sont des entiers
+      LigJoueur, ColJoueur	sont des entiers
+      n						est un entier
+      nRes					est un entier
+      nCase					est un entier
+      tabLocal				est un tableau de 3 par 3 entiers
+      
+      // On n'explore pas les niveaux jusqu'au bout pour laisser une chance
+      si nNiveau>4 alors renvoyer 0
+      
+      // copie du tableau (pas de passage par valeur pour les tableaux dans le W-Langage)
+      TableauCopie(ttabCase,tabLocal)
+      
+      // Tour du joueur :
+      pour i=1 _à_ pGestionCase.gnMaxCase
+      	Lig=nCalcLigne(i)
+      	Col=ncalccol(i)
+      
+      	// si la case est libre (sinon, on passe à la suivante) :
+      	si tabLocal[Col][Lig]=0 alors
+      		// l'ordinateur joue là, qu'est-ce que ça donne...
+      		tabLocal[Col][Lig]=2
+      		// est-ce que l'ordinateur gagne avec cette case :
+      		si bGagne(tabLocal) alors
+      			// oui => on remplie la variable résultat.
+      			si nNiveau<nNiveauGagne alors
+      				nIndiceCase=i
+      				nNiveauGagne=nNiveau+1
+      				renvoyer nNiveau+1
+      			fin
+      		FIN
+      
+      		nRes=LIMITE_MAX_ENTIER_4
+      
+      		// Récursion :
+      		pour j=1 _à_ pGestionCase.gnMaxCase
+      			LigJoueur=nCalcLigne(j)
+      			ColJoueur=ncalccol(j)
+      
+      			si tabLocal[ColJoueur][LigJoueur]=0 alors
+      				// le joueur joue là :
+      				tabLocal[ColJoueur][LigJoueur]=1
+      				
+      				si bgagne(tabLocal) alors
+      					nIndiceCase=j
+      					nNiveauGagne=nNiveau+2
+      					renvoyer -(nNiveau+2)
+      				FIN
+      				
+      				n=nrecurs(tabLocal,nNiveau+2,nCase,nNiveauGagne)
+      				si n<>0 alors
+      					si n=-(nNiveau+2) alors	renvoyer n		// pas la peine d'aller plus loin,
+      															// le joueur a gagné le tour d'après.
+      					si abs(n)<abs(nRes) alors
+      						nRes=n
+      						nIndiceCase=nCase
+      					FIN
+      				FIN
+      				tabLocal[ColJoueur][LigJoueur]=0
+      			FIN
+      		FIN
+      
+      		// on remet la case comme avant et on passe à la suivante :
+      		tabLocal[Col][Lig]=0
+      	FIN
+      FIN
+      
+      si nRes<>LIMITE_MAX_ENTIER_4 alors renvoyer nRes
+      
+      renvoyer 0
+     type : 458752
+   -
+     name : OrdinateurJoue
+     procedure_id : 2240978802515074731
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OrdinateurJoue ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OrdinateurJoue()
+      
+      // Variables locales
+      nCaseAJouer			est un entier
+      
+      // Recherche de la case à jouer
+      n	est un entier=nRecurs(pGestionCase.gtabCase,1,nCaseAJouer,LIMITE_MAX_ENTIER_4)
+      
+      // Est-ce qu'une case à jouer "intéressante" a été trouvée ?
+      si nCaseAJouer<>0 alors
+      	// Oui, on joue cette case
+      	joue(nCaseAJouer,gsImgOrdi)
+      sinon
+      	// égalité,
+      	// on recherche la première place disponible :
+      	Joue(nNumCaseVide,gsImgOrdi)
+      FIN
+      
+      // On remplit un tableau en mémoire avec l'état du jeu :
+      RemplitTableauJeu()
+      
+      // Est-ce que la partie a été remportée
+      si bgagne(pGestionCase.gtabcase) alors 
+      	OuvreFenêtreMobile(FEN_Résultat,cnDéfaite)
+      SINON
+      	SI bTableauComplet()=Vrai alors
+      		OuvreFenêtreMobile(FEN_Résultat,cnMatchNul)
+      	FIN	
+      FIN
+     type : 458752
+   -
+     name : RemplitTableauJeu
+     internal_properties : CAAAAAgAAADyPvxb05hzit6JChhQbN/PuY6v/cO+r2QywwOzLwv3zcSf1gqKT5zZPNxWmLypB4w74/QUxdmW0IPLNoCn7dbha4+b/rJYbdr+5gTOrjoxNpz/j3LBHfqXl140U5oda+ZYl/7XYk2Za2yRiuEal0I3ygwblo80Iq1ONf2kPAvDSCbtEDOnE4teLaj6+x+og+AbUu6H
+     procedure_id : 2240978802515140267
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //RemplitTableauJeu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure RemplitTableauJeu()
+      
+      i			est un entier
+      Lig, Col		sont des entiers
+      
+      
+      // On remplit un tableau en mémoire avec l'état du jeu :
+      pour i=1 _à_ pGestionCase.gnMaxCase
+      	// On recherche la ligne et la colonne correspondant à la ième case
+      	Lig=nCalcLigne(i)
+      	Col=nCalcCol(i)
+      	
+      	// Selon l'image contenue, on affecte au jour correspondant
+      	selon {"IMAGE"+i,indchamp}
+      		cas gsImgJoueur				// Joueur 1 : Joueur "Humain"
+      			
+      			AffecterCase(Lig,Col,1)
+      		cas gsImgOrdi				// Joueur 2 : Joueur "Ordinateur"
+      			
+      			AffecterCase(Lig,Col,2)
+      		autre cas					// Case vide
+      			
+      			AffecterCase(Lig,Col,0)
+      			gbPasFini=vrai
+      	FIN
+      FIN
+      
+     type : 458752
+   -
+     name : ResetGame
+     procedure_id : 2240978802515205803
+     type_code : 14
+     code : |1-
+      Procédure ResetGame()
+      
+      // Variables locales
+      i	est un entier
+      
+      // Initialisation de la partie graphique
+      pour i=1 à 9
+      	{"IMAGE"+i,indchamp}=""	
+      FIN
+      
+      // Initialisation du plateau de jeu
+      RemplitTableauJeu()
+      
+      // Tirage au sort du premier joueur
+      TiragePremierJoueur()
+      
+      // Si le joueur "humain", n'est pas le premier joueur, l'ordinateur joue
+      SI gbJoueurCommence = Faux alors
+      	OrdinateurJoue()
+      FIN
+     type : 458752
+   -
+     name : TiragePremierJoueur
+     procedure_id : 2240978802515271339
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //TiragePremierJoueur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure TiragePremierJoueur()
+      
+      // Initialisation du moteur aléatoire
+      InitHasard()
+      
+      // Tirage au sort du premier joueur (1 si le joueur "Humain" commence")
+      gbJoueurCommence = (Hasard()>0.5)
+      
+      // On affiche le premier joueur
+      SI gbJoueurCommence=Vrai alors
+      	Info(<§$0005§>)	
+      SINON
+      	Info(<§$0006§>)	
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f1982bb00effd1a
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Vous avez gagné !
+     index : 0
+   -
+     text :
+      fr-FR : Voulez-vous confirmer cette performance ?
+     index : 1
+   -
+     text :
+      fr-FR : Match nul
+     index : 2
+   -
+     text :
+      fr-FR : Vous avez perdu !
+     index : 3
+   -
+     text :
+      fr-FR : Voulez-vous votre revanche ?
+     index : 4
+   -
+     text :
+      fr-FR : Vous commencez la partie
+     index : 5
+   -
+     text :
+      fr-FR : Votre adversaire commence la partie
+     index : 6
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,206 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pGestionCase
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x105b085200102d85
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      GLOBAL
+      	gtabCase			est un tableau de 3 par 3 entier
+      	gnMaxCase			est un entier = 9
+      	gnNbColonnes 		est un entier = 3
+      
+      CONSTANTE
+      	cnVictoire = 1
+      	cnMatchNul = 2
+      	cnDéfaite = 3
+      FIN
+     type : 720896
+  procedures :
+   -
+     name : nCalcCol
+     procedure_id : 1178545124877078424
+     type_code : 15
+     code : |1-
+      Procédure nCalcCol(nValeur est un entier)
+      
+      renvoyer ((nValeur-1) modulo 3)+1
+     type : 458752
+   -
+     name : nCalcLigne
+     procedure_id : 1178545227956448397
+     type_code : 15
+     code : |1-
+      Procédure nCalcLigne(nValeur est un entier)
+      
+      renvoyer ((nValeur-1)/3)+1
+     type : 458752
+   -
+     name : AffecterCase
+     procedure_id : 1178545485654611380
+     type_code : 15
+     code : |1-
+      // Syntaxe :
+      //AffecterCase (<nNumLigne>, <nNumCol>, <nValeur>)
+      //
+      // Paramètres :
+      // 	nNumLigne : Numéro de la ligne à affecter
+      // 	nNumCol : Numéro de la colonne à affecter
+      // 	nValeur : Valeur à affecter
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure AffecterCase(nNumLigne, nNumCol, nValeur)
+      
+      gtabCase[nNumCol][nNumLigne]=nValeur
+     type : 458752
+   -
+     name : bTableauComplet
+     procedure_id : 1178546482087125808
+     type_code : 15
+     code : |1-
+      // Syntaxe :
+      //[ <Résultat> = ] bTableauComplet ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le tableau est complet, Faux sinon
+      
+      Procédure bTableauComplet()
+      
+      nIndice est un entier
+      
+      Pour nIndice = 1 _a_ gnMaxCase
+      	// Si au moins une case est vide, c'est que le tableau n'est pas complet	
+      	SI gtabCase[nCalcCol(nIndice)][nCalcLigne(nIndice)]=0 alors
+      		// le tableau n'est pas complet
+      		RENVOYER Faux
+      	FIN
+      FIN
+      
+      // Par défaut, le tableau est complet
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : nNumCaseVide
+     procedure_id : 1178548118469718795
+     type_code : 15
+     code : |1-
+      // Syntaxe :
+      //[ <Résultat> = ] nNumCaseVide ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : Valeur de la première case vide
+      
+      Procédure nNumCaseVide()
+      
+      nIndice est un entier
+      
+      Pour nIndice = 1 _a_ gnMaxCase
+      	// Si la case est vide on joue cette case
+      	si pGestionCase.gtabcase[nCalcCol(nIndice)][nCalcLigne(nIndice)]=0 alors
+      		RENVOYER nIndice
+      	FIN
+      fin
+      
+      RENVOYER 0
+     type : 458752
+   -
+     name : bGagne
+     procedure_id : 1178548565146356043
+     type_code : 15
+     code : |1+
+      // Syntaxe :
+      // [ <Résultat> = ] bGagne (<ttabCase>)
+      //
+      // Paramètres :
+      // 	ttabCase : tableau des cases
+      // Valeur de retour :
+      // 	booléen : Vrai en cas de condition de victoire
+      
+      Procédure bGagne(ttabCase)
+      
+      // Variables locales
+      i, j	sont des entiers
+      n		est un entier
+      bEgal	est un booleen
+      bDiagonale est un booléen
+      
+      // Test des lignes :
+      pour i=1 _à_ gnNbColonnes
+      	bEgal=vrai
+      	n=ttabCase[1][i]
+      	si n<>0 alors
+      		pour j=2 _à_ gnNbColonnes
+      			si n<>ttabCase[j][i] alors
+      				bEgal=faux
+      				sortir
+      			FIN
+      		FIN
+      		si bEgal alors renvoyer vrai
+      	fin
+      FIN
+      
+      // Test des colonnes :
+      pour i=1 _à_ gnNbColonnes
+      	bEgal=vrai
+      	n=ttabCase[i][1]
+      	si n<>0 alors
+      		pour j=2 _à_ gnNbColonnes
+      			si n<>ttabCase[i][j] alors
+      				bEgal=faux
+      				sortir
+      			FIN
+      		FIN
+      		si bEgal alors renvoyer vrai
+      	fin
+      FIN
+      
+      // Test des diagonales : diagonale de Haut-Gauche à Bas-Droite
+      si ttabCase[1][1]<>0 ALORS
+      	bDiagonale = Vrai
+      	Pour i=2 _a_ gnNbColonnes
+      		SI ttabCase[1][1]<>ttabCase[i][i] alors
+      			bDiagonale = Faux
+      		FIN
+      	FIN
+      	SI bDiagonale = Vrai alors RENVOYER Vrai
+      FIN
+      
+      // Test des diagonales : diagonale de Haut-Droite à Bas-Gauche
+      si ttabCase[1][3]<>0 ALORS
+      	bDiagonale = Vrai
+      	Pour i=2 _a_ gnNbColonnes
+      		SI ttabCase[1][3]<>ttabCase[i][gnNbColonnes-i+1] alors
+      			bDiagonale = Faux
+      		FIN
+      	FIN
+      	SI bDiagonale = Vrai alors RENVOYER Vrai
+      FIN
+      
+      renvoyer faux
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x10faeaac21c8eba8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
